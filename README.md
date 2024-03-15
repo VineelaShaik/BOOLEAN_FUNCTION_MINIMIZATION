@@ -34,21 +34,23 @@ Hardware – PCs, Cyclone II , USB flasher
 **Program:**
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-Developed by: Vineela Shaik
-RegisterNumber: 212223040243
-
-module exp2(E,F,A,B,C,D);
-output E,F;
-input A, B, C, D;
-assign E = A || (B && C) || ((!B) && D);
-assign F = ((!B)&& C) || (B &&(!C) && (!D));
-endmodule
+<br>
+Developed by: Vineela Shaik<br>
+RegisterNumber: 212223040243<br>
+<br>
+module exp2(E,F,A,B,C,D);<br>
+output E,F;<br>
+input A, B, C, D;<br>
+assign E = A || (B && C) || ((!B) && D);<br>
+assign F = ((!B)&& C) || (B &&(!C) && (!D));<br>
+endmodule<br>
 */
 
 
 **RTL realization**
 **Output:**
+<br>
+
 ![Screenshot 2024-03-14 222026](https://github.com/VineelaShaik/BOOLEAN_FUNCTION_MINIMIZATION/assets/144340862/607e53ab-9580-44d7-b255-3de5930da8c8)
 
 **Timing Diagram**
